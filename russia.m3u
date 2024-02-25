@@ -1,0 +1,222 @@
+#EXTINF:-1 group-title="Общероссийские",Первый канал
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_YARL_1TV/variant.m3u8?version=2
+
+#EXTINF:-1 tvg-id="rossia1",Россия 1
+https://gtrk-volga.ru/media/hr1/stream1.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Мультиспорт" tvg-id="match-tv", Матч!
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+
+#EXTINF:-1 tvg-id="ntv",НТВ
+http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="5kanal-ru", Пятый канал
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+
+#EXTINF:-1 tvg-id="RussiaK.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/512px-Russia-Cultura.svg.png" group-title="Culture",Россия-Культура
+http://moobl.ru/hls/Russia_K.m3u8
+
+#EXTINF:-1  tvg-id="rossia-24" group-title="Новости", Россия 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia24-sd/index.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Мультсериалы" tvg-id="karusel", Карусель
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+
+#EXTINF:-1 tvg-id="OTR.ru" tvg-logo="https://i.imgur.com/VaWlnjZ.png" group-title="Undefined",ОТР
+http://moobl.ru/hls/OTR.m3u8
+
+#EXTINF:-1 group-title="Общие" tvg-id="tvcentr" , ТВ Центр
+https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Общественные",РЕН ТВ HD
+https://rentv-live-megafon2.mediavitrina.ru/hls-livef1/ren-tv/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spas.ru" tvg-logo="https://i.imgur.com/yY39nMg.png" group-title="Religious",Спас
+http://moobl.ru/hls/Spas.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="", СТС
+http://s18209.cdn.ngenix.net/hls/CH_R02_STS/playlist.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny" group-title="Общие", Домашний
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="tv3-ru",ТВ3
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="piatnica", Пятница!
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+
+#EXTINF:-1,Звезда
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+
+#EXTINF:-1 ,МИР HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="tnt", ТНТ
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Музмикс" tvg-id="muztv", Муз ТВ
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Известия HD
+http://moobl.ru/hls/Izvestia_hd.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="sts-love", СТС Love
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+
+#EXTINF:-1 group-title="Развлекательные", Ю 
+https://strm.yandex.ru/kal/utv/utv0.m3u8
+
+#EXTINF:-1 tvg-id="2x2",2X2
+https://bl.uma.media/live/317805/HLS/4614144_3/2/1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Дождь HD
+http://moobl.ru/hls/Dozhd_hd.m3u8
+
+#EXTINF:-1,УЛПРАВДА ТВ
+http://live-1.otcnet.ru/pravdatv/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox.ru" tvg-logo="https://i.imgur.com/nr1Y67Z.png" group-title="Movies",Fox
+https://stream01.vnet.am/Fox/mono.m3u8
+
+#EXTINF:-1,Репортер 73
+https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_reporter73/hls/1920x1080@4504/playlist.m3u8
+#EXTINF:-1 ,Мелодрамы
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/tracks-v5a1/mono.m3u8
+#EXTINF:-1 ,Кино и сериалы
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
+#EXTINF:-1 ,РБК
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
+#EXTINF:-1 ,Cinema Classic TV
+http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
+
+#EXTINF:-1 tvg-id="360.ru" tvg-logo="https://i.imgur.com/VTJqdoX.png" group-title="General",360° HD
+https://strm.yandex.ru/kal/360tv/360tv0.m3u8
+
+#EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/eEjPail.png" group-title="Undefined",История
+http://moobl.ru/hls/Istoriya.m3u8
+
+#EXTINF:-1 tvg-id="KVNTV.ru" tvg-logo="https://i.imgur.com/Vw3LFLX.png" group-title="Entertainment",КВН ТВ
+http://moobl.ru/hls/KVN.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Соловьев LIVE HD
+http://moobl.ru/hls/Soloviev_live_hd.m3u8
+
+#EXTINF:-1 tvg-id="Solnce.ru" tvg-logo="https://i.imgur.com/rec9akk.png" group-title="Animation;Kids",Солнце
+http://moobl.ru/hls/Solnce.m3u8
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Nickelodeon HD
+http://moobl.ru/hls/Nickelodeon_hd.m3u8
+
+
+#EXTINF:-1 , Киномикс HD
+http://moobl.ru/hls/Kinomix_HD.m3u8
+
+#EXTINF:-1 ,Kronehit TV
+http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1228000.m3u8
+#EXTINF:-1 ,MIXM TV
+http://hlss.goodgame.ru/hls/181490.m3u8
+
+#EXTINF:-1 tvg-id="DaVinci.ru" tvg-logo="https://i.imgur.com/iBx7K1M.png" group-title="Undefined",Da Vinci Russia (576p)
+https://tbs01-edge11.itdc.ge/davinci/index.m3u8
+
+#EXTINF:-1 tvg-id="StarFamily.ru" tvg-logo="https://i.imgur.com/eGuGHnZ.png" group-title="Movies",Star Family
+http://89.254.128.5:22280/star_family_hd/video.m3u8
+
+#EXTINF:-1 tvg-id="Cinema.ru" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Movies",Cinema
+http://176.74.80.162:8099/Cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="FilmBox.ru" tvg-logo="https://i.imgur.com/cXatYqt.png" group-title="Movies",Filmbox
+http://moobl.ru/hls/Filmbox.m3u8
+
+#EXTINF:-1 tvg-id="FoxLife.ru" tvg-logo="https://i.imgur.com/O2miSLA.png" group-title="Series",Fox Life
+http://moobl.ru/hls/Fox_Life.m3u8
+
+#EXTINF:-1 tvg-id="Prima.ru" tvg-logo="https://i.imgur.com/33XGMch.png" group-title="Undefined",Прима
+http://moobl.ru/hls/Prima.m3u8
+
+#EXTINF:-1 tvg-id="NanoHD.ru" tvg-logo="https://i.imgur.com/8xdU3Ry.png" group-title="Documentary",Нано ТВ HD
+http://moobl.ru/hls/Nano_tv_hd.m3u8
+
+
+
+#EXTINF:-1 tvg-id="shanson-tv" group-title="Шансон", Шансон-ТВ 
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+
+#EXTINF:-1 tvg-id="Start.ru" tvg-logo="https://i.imgur.com/VBqVkno.png" group-title="Sports",Старт (1080p)
+https://strm.yandex.ru/kal/start/start0.m3u8
+
+#EXTINF:-1 ,Аист ТВ (Иркутск)
+http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
+#EXTINF:-1 ,Алмазный край HD
+https://stream.almaz-media.tv:8080/hls/720.m3u8
+#EXTINF:-1 ,Красная линия ТВ
+https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 ,Победа
+http://flu.ttk.mx:9090/Pobeda/index.m3u8?token=orh6o
+#EXTINF:-1 ,ТНТ4
+https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 ,Теледом ТВ
+http://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
+
+#EXTINF:-1 tvg-id="Che.ru" tvg-logo="https://i.imgur.com/ZOcDGpB.png" group-title="Entertainment",Че
+http://moobl.ru/hls/Che.m3u8
+
+#EXTINF:-1 ,FilmBox
+http://94.230.240.17:8080/film_box/index.m3u8
+
+#EXTINF:-1 tvg-name="Наука 2.0",Наука 2.0
+http://stream01.vnet.am/Nauka/mono.m3u8
+#EXTINF:-1 group-title="Научпоп",Наука 2.0 HD
+https://strm.yandex.ru/kal/nauka_belarus/nauka_belarus0.m3u8
+
+#EXTINF:-1 tvg-name="RTД",RTД
+https://hls.rt.com/hls/rtdru360.m3u8
+#EXTINF:-1 tvg-name="Усадьба",Усадьба
+http://94.230.240.17:8080/usadba/index.m3u8
+
+#EXTINF:-1 tvg-id="MuzhskoekinoHD.ru" tvg-logo="https://i.imgur.com/8RN3tQC.png" group-title="Movies",Мужское Кино HD
+http://moobl.ru/hls/Muzhskoe_kino_hd.m3u8
+
+#EXTINF:-1 ,ТНТ music
+https://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
+
+#EXTINF:-1 group-title="Сериалы" tvg-id="ntv-serial", НТВ-Сериал HD 
+https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
+
+#EXTINF:-1 group-title="Кинохиты" tvg-id="ntv-xit", НТВ-Хит HD 
+https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
+
+#EXTINF:-1 tvg-id="ZvezdaPlus.ru" tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="Undefined",Звезда Плюс
+http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
+
+#EXTINF:-1 group-title="Национальная музыка", Russian MusicBox
+https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
+
+#EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Национальная музыка", Bridge TV Русский Хит
+https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
+
+#EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Шансон", Bridge TV Шлягерf
+https://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
+
+#EXTINF:-1 group-title="Музмикс", Bridge TV
+https://strm.yandex.ru/kal/bridgetv/bridgetv0.m3u8
+
+#EXTINF:-1 group-title="Охота и рыбалка", Диалоги о рыбалке
+https://strm.yandex.ru/kal/dialogi/dialogi0.m3u8
+
+#EXTINF:-1 tvg-id="Drive.ru" tvg-logo="https://i.imgur.com/FnuwfSC.png" group-title="Auto",Драйв
+http://moobl.ru/hls/Drive.m3u8
